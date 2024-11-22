@@ -69,6 +69,10 @@ For any inquiries, suggestions, or feedback, feel free to reach out:
 
 Email: turanserdar@outlook.com.tr
 ## Preview
-Below is a snapshot of the app interface:
+
+Below is a snapshot of the app interface. Since the `youtube.gif` file is too large to embed directly into the README.md, you can view it within the GitHub repository:
+
+![YouTube Clone App Preview]([https://github.com/turanserdar/Youtube-Clone-React/blob/main/youtube.gif])
+
 
 
