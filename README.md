@@ -9,11 +9,10 @@ Welcome to the **YouTube Clone App**, a modern and interactive web application b
 1. [Project Overview](#project-overview)  
 2. [Features](#features)  
 3. [Technologies Used](#technologies-used)  
-4. [Installation](#installation)  
-5. [Usage](#usage)  
-6. [API Integration](#api-integration)  
-7. [Contributing](#contributing)  
-8. [Contact](#contact)
+4. [Usage](#usage)  
+5. [API Integration](#api-integration)  
+6. [Contributing](#contributing)  
+7. [Contact](#contact)
 
 ---
 
@@ -47,72 +46,7 @@ The YouTube Clone App is designed to emulate YouTube's core functionalities. Use
 
 ---
 
-## Installation
 
-Follow these steps to set up and run the app locally:
-
-Clone the repository:
-   ```bash
-   git clone https://github.com/turanserdar/YouTube-Clone-App.git
-Navigate to the project directory:
-
-bash
-Copy code
-cd youtube-clone-app
-Install dependencies:
-
-bash
-Copy code
-npm install
-Start the development server:
-
-bash
-Copy code
-npm start
-Open the app in your browser at:
-
-arduino
-Copy code
-http://localhost:3000
-## Usage
-Browsing Videos
-Launch the app to explore videos across multiple categories like Music, News, and more.
-Use the sidebar for navigation between sections.
-Search
-Enter keywords in the search bar at the top to filter videos.
-Playing Videos
-Click on a video thumbnail to open the video player page.
-## API Integration
-This project integrates the YouTube API from RapidAPI to fetch video data, including trending videos, categories, and search results. The API provides data such as video titles, descriptions, view counts, and more. To access the API, you must sign up at RapidAPI and get an API key.
-
-Here is how you can integrate the YouTube API:
-
-Sign up for an account on RapidAPI.
-
-Subscribe to the YouTube API by ytjar.
-
-Obtain your API key.
-
-Use Axios to make requests to the API and retrieve data, such as:
-
-js
-Copy code
-axios.get('https://yt-api.p.rapidapi.com/', {
-    params: {
-        q: 'search_term',
-        maxResults: '10',
-    },
-    headers: {
-        'X-RapidAPI-Host': 'yt-api.p.rapidapi.com',
-        'X-RapidAPI-Key': 'your_api_key'
-    }
-})
-.then(response => {
-    console.log(response.data);
-})
-.catch(error => {
-    console.error('Error fetching data from YouTube API:', error);
-});
 ## Contributing
 We welcome contributions to improve the project. Here's how you can contribute:
 
