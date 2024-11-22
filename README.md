@@ -72,7 +72,8 @@ Email: turanserdar@outlook.com.tr
 
 Below is a snapshot of the app interface. Since the `youtube.gif` file is too large to embed directly into the README.md, you can view it within the GitHub repository:
 
-![YouTube Clone App Preview]([https://github.com/turanserdar/Youtube-Clone-React/blob/main/youtube.gif])
+![YouTube Clone App Preview](https://raw.githubusercontent.com/turanserdar/Youtube-Clone-React/main/youtube.gif)
+
 
 
 
